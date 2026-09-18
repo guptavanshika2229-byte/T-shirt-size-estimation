@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw and external datasets
+data/raw/
+data/external/
+
+# Intermediate data
+data/interim/
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+
+# MLflow
+mlruns/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
