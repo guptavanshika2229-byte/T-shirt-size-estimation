@@ -40,3 +40,8 @@ mlruns/
 
 # Temporary files
 *.tmp
+# All trained model artifacts
+models/*.pkl
+
+data/processed/
+
